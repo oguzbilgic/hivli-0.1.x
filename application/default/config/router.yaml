@@ -1,0 +1,31 @@
+mp3/:id/:name : 
+    url: /mp3/:id/:name
+    param: 
+        controller: search
+        action: show
+        
+lyric/:id/:name : 
+    url: /lyric/:id/:name
+    param: 
+        controller: search
+        action: show
+        
+search/:string/1/mp3 : 
+    url: /search/:string/1/mp3
+    param: 
+        controller: search
+        action: show        
+        
+homepage: 
+    url: /
+    param: 
+        controller: index
+        action: index
+default_action: 
+    url: /:controller
+    param: 
+        action: index
+default: 
+    url: /:controller/:action/*
+default_short: 
+    url: /:controller/:action

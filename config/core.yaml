@@ -1,0 +1,16 @@
+name: Mp3 Downlad
+common_application: common
+default_application: default
+security_triger: 1qa2wa78ditg6yh
+subdomain:
+    status: on
+    param: lang
+    list: [tr, en, de, fr, nl]
+root: 
+application_path: application/
+folders: 
+    controller: controller/
+    plugin: controller/plugin/
+    model: model/
+    view: view/
+    i18n: i18n/

@@ -1,0 +1,14 @@
+---
+homepage: 
+    url: /
+    param: 
+        controller: index
+        action: index
+default_action: 
+    url: /:controller
+    param: 
+        action: index
+default: 
+    url: /:controller/:action/*
+default_short: 
+    url: /:controller/:action

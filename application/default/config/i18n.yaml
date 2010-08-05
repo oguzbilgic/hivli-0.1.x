@@ -1,0 +1,7 @@
+i18n: on
+languages:
+    tr: turkish.php
+    de: german.php
+    en: english.php
+    fr: french.php
+    nl: dutch.php

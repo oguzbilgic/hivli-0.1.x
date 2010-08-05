@@ -1,0 +1,6 @@
+---
+auth: off
+default_role: guest
+permissions: ALL
+connections: 
+i18n: off

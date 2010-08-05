@@ -1,0 +1,7 @@
+database: on
+params:
+    name: newmp3
+    type: mysql 
+    host: localhost
+    username: root
+    password: 

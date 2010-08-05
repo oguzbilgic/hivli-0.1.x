@@ -1,0 +1,19 @@
+layout:	    	on
+default_layout_file:	layout
+
+folders:
+  css:			css/
+  image:		image/
+  js:			js/
+  layout:		layout/
+  loop:			loop/
+  modul:		modul/
+  view:			script/
+  
+suffixes:
+  css:         	.css
+  js:  			.js
+  layout:  		.php
+  loop:         .php
+  modul:        .php
+  view:         .php

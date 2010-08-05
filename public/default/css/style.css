@@ -1,0 +1,286 @@
+@CHARSET "UTF-8";
+
+
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#box h2 {
+	font-size: 18px;
+	padding: 0px;
+	display: block;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9900;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+#box h3 {
+	font-size: 20px;
+	padding: 0px;
+	padding-left: 20px;
+	display: block;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9900;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+#box {
+	margin-bottom: 10px;
+}
+#box a {
+	text-decoration: none;
+	color: #07c;
+	font-weight: bold;
+}
+
+#box p {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+#box input {
+	display: block;
+	padding: 0px;
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	line-height: 25px;
+}
+#box textarea {
+	display: block;
+	padding: 0px;
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	line-height: 25px;
+}
+#box label {
+	display: block;
+	padding: 0px;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.noticeok {
+	background-color: #C9FFCA;
+	padding: 5px;
+	font-size: 15px;
+	color: #333333;
+	font-weight: bold;
+	border: 1px solid #349534;
+	text-align: center;
+}
+
+.noticeerror {
+	background-color: #FFCC00;
+	padding: 5px;
+	font-size: 15px;
+	color: #CC3300;
+	font-weight: bold;
+	border: 1px solid #CC3300;
+	text-align: center;
+}
+
+.notice {
+	background-color: #FFCC00;
+	padding: 5px;
+	font-size: 15px;
+	color: #333333;
+	font-weight: bold;
+	border: 1px solid #CC3300;
+	text-align: center;
+}
+
+.desc {
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+#search-box h2 {
+	padding: 0px;
+	font-size: 18px;
+	color: #333333;
+	display: block;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#search-box input {
+	border: 2px solid #999999;
+	width: 500px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#search-box input:hover {
+	border: 2px solid #0099FF;
+	width: 500px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#search-box select {
+	border: 1px solid #000000;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	width: 130px;
+}
+
+#search-box #button {
+	height: 30px;
+	border: 1px solid #000000;
+	background-color: #FFCC00;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 370px;
+}
+#search-box {
+	margin-bottom: 10px;
+	background-color: #FF9900;
+	border: 1px solid #000000;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#navigation {
+	margin-bottom: 10px;
+	height: 34px;
+}
+
+#navigation a {
+	background-color: #eeeeee;
+	display: block;
+	float: left;
+	line-height: 20px;
+	padding: 5px;
+	margin-right: 5px;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+	border: 1px solid #eeeeee;
+}
+#navigation p {
+	background-color: #ffeeff;
+	display: block;
+	float: right;
+	line-height: 20px;
+	padding: 5px;
+	margin-left: 5px;
+	color: #666666;
+	border: 1px solid #ffeeff;
+}
+
+#navigation a:hover {
+	border: 1px solid #FF9900;
+}
+
+
+
+
+#footer {
+	background-color: #CCCCCC;
+	height: 125px;
+	margin-bottom: 20px;
+}
+
+
+#footer p {
+	margin: 10px;
+	font-size: 12px;
+	color: #666666;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #777777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#lang {
+	text-align: right;
+	background-color: #FEF7D7;
+}
+#lang a {
+	text-decoration: none;
+	color: #666666;
+	font-size: 13px;
+	display: block;
+	float: right;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-right: 7px;
+}
+#lang p {
+	color: #666666;
+	font-size: 13px;
+	display: block;
+	float: right;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-right: 7px;
+}

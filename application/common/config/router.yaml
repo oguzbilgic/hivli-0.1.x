@@ -1,0 +1,12 @@
+homepage: 
+    url: /
+    param: 
+        controller: error
+        action: index
+        
+homepage_long: 
+    url: /*
+    param: 
+        controller: error
+        action: index
+        

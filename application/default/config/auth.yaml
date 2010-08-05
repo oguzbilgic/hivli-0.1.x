@@ -1,0 +1,19 @@
+auth: on
+default_role: guest
+
+permissions:
+  guest:
+    index: ALL
+    search: ALL
+    artist: ALL
+    album: ALL
+    contact: ALL
+    song: [index, show]
+    user: [login, register, registerSuccessful]
+  user:
+    user: ALL
+    song: ALL
+  admin: ALL
+
+connections:
+  user: guest         

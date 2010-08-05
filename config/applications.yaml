@@ -1,0 +1,13 @@
+---
+default: 
+    name: default
+    url_prefix: /
+    folder: default/
+common: 
+    name: common
+    url_prefix: common/
+    folder: common/
+yonetim: 
+    name: yonetim
+    url_prefix: yonetim/
+    folder: yonetim/
